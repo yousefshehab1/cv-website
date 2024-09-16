@@ -7,13 +7,11 @@
 
 /* Body Styling */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
     background-color: #f4f4f4;
     line-height: 1.6;
     margin: 20px;
     color: #333;
-    direction: rtl; /* إضافة هذا السطر لدعم اللغة العربية */
-    text-align: right; /* لضبط النص من اليمين */
 }
 
 /* Container for main content */
@@ -56,7 +54,7 @@ p {
 }
 
 ul {
-    margin-right: 20px;
+    margin-left: 20px;
     list-style: square;
 }
 
@@ -96,7 +94,7 @@ li {
 
 /* Skills Section */
 .skills p, .skills ul {
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
 /* Footer */
