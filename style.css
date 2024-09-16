@@ -7,11 +7,13 @@
 
 /* Body Styling */
 body {
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f4f4f4;
     line-height: 1.6;
     margin: 20px;
     color: #333;
+    direction: rtl; /* إضافة هذا السطر لدعم اللغة العربية */
+    text-align: right; /* لضبط النص من اليمين */
 }
 
 /* Container for main content */
@@ -39,6 +41,7 @@ h1 {
 
 h2 {
     font-size: 1.8em;
+    margin-top: 20px;
 }
 
 h3 {
@@ -53,8 +56,12 @@ p {
 }
 
 ul {
-    margin-left: 20px;
+    margin-right: 20px;
     list-style: square;
+}
+
+li {
+    margin-bottom: 5px;
 }
 
 /* Contact Info Styles */
@@ -66,6 +73,11 @@ ul {
     padding: 15px;
     border-radius: 8px;
     color: white;
+    flex-wrap: wrap;
+}
+
+.contact-info div {
+    margin-bottom: 10px;
 }
 
 .contact-info a {
@@ -83,13 +95,14 @@ ul {
 }
 
 /* Skills Section */
-.skills ul {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
+.skills p, .skills ul {
+    margin-right: 20px;
 }
 
 /* Footer */
 footer {
     text-align: center;
-   
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #777;
+}
