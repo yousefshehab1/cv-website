@@ -1,106 +1,43 @@
-/* Reset default browser styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Body Styling */
-body {
-    font-family: 'Roboto', Arial, sans-serif;
-    background-color: #f4f4f4;
-    line-height: 1.6;
-    margin: 20px;
-    color: #333;
-}
-
-/* Container for main content */
+/* Container styling */
 .container {
-    max-width: 900px;
-    margin: auto;
-    background: white;
+    max-width: 800px;
+    margin: 0 auto;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
 }
 
-/* Heading Styles */
-h1, h2, h3 {
-    color: #333;
-    border-bottom: 2px solid #00aaff;
-    padding-bottom: 5px;
-    margin-bottom: 10px;
-}
-
-h1 {
-    font-size: 2.5em;
+/* Profile Image Styling */
+.profile-image {
     text-align: center;
-}
-
-h2 {
-    font-size: 1.8em;
-    margin-top: 20px;
-}
-
-h3 {
-    font-size: 1.2em;
-    margin-top: 20px;
-}
-
-/* General Text Styling */
-p {
-    margin: 10px 0;
-    font-size: 1.1em;
-}
-
-ul {
-    margin-left: 20px;
-    list-style: square;
-}
-
-li {
-    margin-bottom: 5px;
-}
-
-/* Contact Info Styles */
-.contact-info {
-    display: flex;
-    justify-content: space-between;
     margin-bottom: 20px;
-    background-color: #00aaff;
-    padding: 15px;
-    border-radius: 8px;
-    color: white;
-    flex-wrap: wrap;
 }
 
-.contact-info div {
-    margin-bottom: 10px;
+.profile-image img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #00aaff;
 }
 
-.contact-info a {
-    color: white;
-    text-decoration: none;
-}
-
-.contact-info a:hover {
-    text-decoration: underline;
-}
-
-/* Section Styles */
+/* Section styling */
 .section {
     margin-bottom: 20px;
 }
 
-/* Skills Section */
-.skills p, .skills ul {
-    margin-left: 20px;
+/* Icon styling */
+i {
+    color: #00aaff;
+    margin-right: 10px;
 }
 
-/* Footer */
-footer {
-    text-align: center;
-    margin-top: 40px;
-    font-size: 0.9em;
-    color: #777;
+/* Section heading styling */
+.section h2 {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #333;
+    border-bottom: 2px solid #00aaff;
+    padding-bottom: 5px;
 }
